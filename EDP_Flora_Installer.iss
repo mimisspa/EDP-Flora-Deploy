@@ -41,7 +41,7 @@ Source: "System.Threading.Tasks.Extensions.dll"; DestDir: "{app}"; Flags: ignore
 Source: "initdb_floweryflowers.sql"; DestDir: "{app}"; Flags: ignoreversion
 Source: "floweryflowersDB.sql"; DestDir: "{app}"; Flags: ignoreversion
 Source: "setup_mysql.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "mysql-installer-web-community-8.0.42.0.msi"; DestDir: "{tmp}"; Flags: ignoreversion
+Source: "mysql-installer-community-8.0.42.0"; DestDir: "{tmp}"; Flags: ignoreversion
 
 
 [Icons]
